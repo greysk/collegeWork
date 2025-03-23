@@ -1,11 +1,11 @@
 # collegeWork
 Some scripts and projects associated with obtaining my Bachelors Degree in Computer Science. **Note:** *At this point, this repository only contains code that doesn't raise concern about accidentally providing assignment answers to current students.*
 
-This repository contains some personal "projects" in the [0.tools](0.tools) folder, including:
+This repository contains some personal "projects" in the [0.tools](0.tools/) folder, including:
 
-1. Work on a [flask-based coursework-tracking website project](0.tools/0.myClassesWebsite), and
-2. A [python scripts to create new course/term folders and files](0.tools/0.templates).
-    - This script also contains [dates.py](0.tools/0.templates/dates.py), written to add dates and parts of dates associated with the course/term files.
+1. Work on a [flask-based coursework-tracking website project](0.tools/0.myClassesWebsite/), and
+2. A [python scripts to create new course/term folders and files](0.tools/0.courseFilesTemplates/).
+    - This script also contains [dates.py](0.tools/0.courseFilesTemplates/dates.py), written to add dates and parts of dates associated with the course/term files.
 
 ## Courses Completed and Scheduled
 
