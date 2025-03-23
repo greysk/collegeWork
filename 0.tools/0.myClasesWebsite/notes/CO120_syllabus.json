@@ -1,0 +1,410 @@
+{
+    "start_date": "2022-01-12",
+    "catalog_code": {
+        "prefix": ["CO", "Communication"],
+        "number": 120
+        },
+    "title": "Interpersonal Communication",
+    "textbooks": [
+        {
+            "ISBN": "9780357689745",
+            "title": [
+                "Interpersonal Communication",
+                "Interpersonal Communication: Everyday Encounters"
+            ],
+            "author": ["Wood", "Julia", "T"]
+        }
+    ],
+    "course_description":
+        "Students explore the challenges of building and maintaining relationships through verbal, nonverbal language, conflict management, perception and listening skills. Ideas are applied to everyday aspects of interaction in both personal and professional relationships. Students gain an in-depth perspective on communication and the role it plays in everyday challenges.\n",
+    "course_objectives": [
+        "- Define interpersonal communication\n",
+        "- Describe the models and principles of interpersonal communication\n",
+        "- Determine how perception influences communication\n",
+        "- Utilize verbal and nonverbal communication skills to improve relationships\n",
+        "- Derive ways of improving nonverbal communication\n",
+        "- Apply mindful listening and effective listening\n",
+        "- Evaluate the influence of emotion and communication in relationships\n",
+        "- Analyze effective communication during conflict\n",
+        "- Apply effective interpersonal communication principles to friendships, romantic partners, and family relationships\n"
+    ],
+    "credit_hours": 3,
+    "pre-requisites": null,
+    "grading_policy":{
+        "discussion": 15,
+        "assignment": 36,
+        "tests": {
+            "application": 0,
+            "quiz": 27,
+            "midterm": 11,
+            "final": 11
+        }
+    },
+    "schedule": {
+        "W1":{
+            "topic": "What is Interpersonal Communication?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 1", [1, 44]],
+                    ["How To: Upload Videos", 4]
+                ],
+                "watch": [
+                    ["Lecture: A First Look at Interpersonal Communication", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 1", [1, 44]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Select one of the principles and describe a situation where this principle impacted you in a significant manner.\n",
+                        "2. Describe an I-It, I-You, and I-Thou relationship in your life (one each). Analyze differences in communication and personal knowledge in the three relationships.\n"
+                    ],
+                    "due_date": "2022-01-17 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": [
+                        "Engage in conversation, or even civil debate, as you discuss their insights and viewpoints. You may ask questions for clarification (if you are confused by their initial post) or pose questions that advance the conversation. You might even find a topic that leads you to further research in the area!\n"
+                    ],
+                    "due_date": "2022-01-19 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "write": [
+                        ["Paper: Communication Ethics", 1]
+                    ],
+                    "prompt": [
+                        "url:https://content.grantham.edu/academics/GU_CO120/W1Assignment_Mar20.htm"
+                    ],
+                    "due_date":"2022-01-19 00:59:59"
+                }
+            ],
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-01-19 00:59:59"
+            }
+        },
+        "W2":{
+            "topic": "Who Am I?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 2", [45, 73]]
+                ],
+                "watch": [
+                    ["Lecture: Communication and Personal Identity", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 2", [45, 73]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Online communication allows people the ability to create new identities. People can switch genders, race, age, etc. since the visual and auditory cues used in face-to-face encounters are not used. Do you think this practice is helpful, harmful, or both to people's self-concept? Does it create ethical issues when presenting oneself as something they are not? Why or why not? What might be some reasons people do this?  How could this be both useful and not useful?\n",
+                        "2. Find a popular magazine and identify examples of the generalized other's perspective. How does the media define desirable women and men? How is that different than what “regular” people define as desirable?  Analyze the messages and how society responds to them. What impact does this have on our relationships?\n"
+                    ],
+                    "due_date": "2022-01-24 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date": "2022-01-26 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Paper: Johari Window Diagram", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W2Assignment_Mar20.htm"
+                },
+                "due_date": "2022-01-26 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-01-26 00:59:59"
+            }
+        },
+        "W3":{
+            "topic": "What Do You Mean?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 3", [74, 104]]
+                ],
+                "watch": [
+                    ["Lecture: Perception and Communication", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 3", [74, 104]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Identify and discuss an example of self-serving bias in a workplace. Describe how you engaged in self-serving bias to explain your own or a co-worker's behavior, or how a co-worker engaged in self-serving bias in explaining your or their behavior. How did this impact the situation and the relationship?\n",
+                        "2. Analyze the attributional patterns you use to explain a mean or disappointing behavior by a good friend and by someone whom you do not like. Analyze how differences in your feelings about the two individuals affect your attributional tendencies.\n"
+                    ],
+                    "due_date": "2022-01-31 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date": "2022-02-02 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Paper: Perception and Cognitive Schemata", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W3Assignment_Mar20.htm"
+                },
+                "due_date": "2022-02-02 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-02-02 00:59:59"
+            }
+        },
+        "W4":{
+            "topic": "What Are You Saying?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 4", [105, 133]]
+                ],
+                "watch": [
+                    ["Lecture: The World of Words", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 4", [105, 133]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Identify and define at least one regulative and constitutive rule for interacting in face-to-face situations, and one of each type of rule when communicating over e-mail. Discuss how you learned each of these rules. What happens if these rules are not followed?\n",
+                        "2. Describe verbal communication between you and a close friend or romantic partner of the other sex. How do you both follow the gender patterns for your respective gender?  How do gender stereotypes factor into this interaction?\n"
+                    ],
+                    "due_date": "2022-02-07 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date":"2022-02-09 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Paper: Constructed Meaning and Perception", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W4Assignment_Mar20.htm"
+                },
+                "due_date": "2022-02-09 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["midterm", 1]
+                ],
+                "due_date": "2022-02-09 00:59:59"
+            }
+        },
+        "W5":{
+            "topic": "Do Your Really Mean That?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 5", [134, 163]],
+                    ["Wired: The Secret Cause of Flame Wars", 1]
+                ],
+                "watch": [
+                    ["Lecture: The World Beyond Words", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 5", [134, 163]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Consider three different friends that you have and discuss their physical appearance. Does their physical appearance affect their personality? Are there certain things about their physical appearance that cause others to stereotype them or prejudge them? If they went to a different country, how would people view them?\n",
+                        "2. Look around your office or bedroom. How would you analyze the artifacts and environment? What do you these nonverbal say about who you are? How do these items impact your feelings of comfort, identity and security? How would it be different if all of these things disappeared?\n"
+                    ],
+                    "due_date": "2022-02-14 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date": "2022-02-16 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["PowerPoint: Social Media Perception", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W5Assignment_April20.htm"
+                },
+                "due_date": "2022-02-16 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-02-16 00:59:59"
+            }
+        },
+        "W6":{
+            "topic": "What Did You Say?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 6", [162, 188]]
+                ],
+                "watch": [
+                    ["Lecture: Mindful Listening", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chaper 6", [162, 188]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Analyze your own listening effectiveness. Using the textbook to guide you, analyze your strengths and weaknesses in terms of the text's guidelines for effective informational listening and effective relational listening. Identify two listening skills you would like to improve and describe how you plan to develop greater competence in each.\n",
+                        "2. Effective listening varies according to listening purposes and people with whom we interact. Explain how we adapt styles and behaviors of listening to diverse situations and individuals.  Use the textbook for definitions and supporting material.\n"
+                    ],
+                    "due_date": "2022-02-21 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date":"2022-02-23 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Paper: The Importance of Listening", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W6Assignment_Mar20.htm"
+                },
+                "due_date": "2022-02-23 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-02-23 00:59:59"
+            }
+        },
+        "W7":{
+            "topic": "Can't We All Just Get Along?",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 7", [190, 218]],
+                    ["Interpersonal Communication: Chapter 9", [247, 281]]
+                ],
+                "watch": [
+                    ["Lecture: Emotions and Communication Managing Conflict - Part 1", 1],
+                    ["Lecture: Emotions and Communication Managing Conflict - Part 2", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chaper 7", [190, 218]],
+                    ["Interpersonal Communication: Chapter 9", [247, 281]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Consider how conflict can be detrimental and/or beneficial to a relationship. Give examples and how it applies to the basic principle of conflict.\n",
+                        "2. Consider a friendship that you sustain over long distances. What technologies (e.g., phone, e-mail, e-Cards, web pages, chat rooms, video phones, etc.) do you use to sustain this relationship? Do you use different technologies for different kinds of communication activities?\n"
+                    ],
+                    "due_date": "2022-02-28 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date": "2022-03-02 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Presentation: Emotional Reactions", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W7Assignment.htm"
+                },
+                "due_date": "2022-03-02 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["quiz", 1]
+                ],
+                "due_date": "2022-03-02 00:59:59"
+            }
+        },
+        "W8":{
+            "topic": "We Are Family",
+            "not_graded": {
+                "read": [
+                    ["Interpersonal Communication: Chapter 10", [282, 308]],
+                    ["Interpersonal Communication: Chapter 11", [308, 334]],
+                    ["Interpersonal Communication: Chapter 12", [335, 361]]
+                ],
+                "watch": [
+                    ["Lecture: Communication in Families", 1]
+                ],
+                "study": [
+                    ["Interpersonal Communication: Chapter 10", [282, 308]],
+                    ["Interpersonal Communication: Chapter 11", [308, 334]],
+                    ["Interpersonal Communication: Chapter 12", [335, 361]]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "prompt": [
+                        "1. Consider the four guidelines for effective communication in families. Discuss how you have used or not used each of these guidelines in your family.\n",
+                        "2. Watch a television show about a family. Describe how your family is different from the television show that you watch. Relate it terms that were discussed in the book.\n"
+                    ],
+                    "due_date": "2022-03-07 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "prompt": null,
+                    "due_date":"2022-03-09 00:59:59"
+                }
+            ],
+            "assignment": {
+                "write": [
+                    ["Paper: Family Life Cycles", 1]
+                ],
+                "prompt":{
+                    "url": "https://content.grantham.edu/academics/GU_CO120/W8Assignment_Mar20.htm"
+                },
+                "due_date": "2022-03-09 00:59:59"
+            },
+            "test": {
+                "take": [
+                    ["final", 1]
+                ],
+                "due_date": "2022-03-09 00:59:59"
+            }
+        }
+    }
+}

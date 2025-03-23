@@ -1,0 +1,547 @@
+{
+    "start_date": "2022-01-12",
+    "catalog_code": {
+        "prefix": ["CS", "Computer Science"],
+        "number": 192
+    },
+    "title": "Programming Essentials",
+    "textbook": [
+        {
+            "ISBN": "9781337560122",
+            "title": [
+                "MindTap",
+                "MindTap Computer Science for Lamberts Fundamentals of Python: First Programs"
+            ],
+            "author": ["Lambert", "Kenneth", "A"]
+        }
+    ],
+    "course_description":
+        "This course introduces problem-solving concepts needed for programming. It covers fundamental control structure such as the sequential structure, the selection structure and the repetition structure. The use of logic in designing programs has general application.\n",
+    "course_objectives": [
+        "- Solve programming problems using modular, structured programming.\n",
+        "- Use sequence, branching, and iteration (loops) logic structures.\n",
+        "- Construct arrays and menus.\n",
+        "- Employ the basic concepts of object-oriented programming.\n",
+        "- Create simple interactive applications.\n",
+        "- Employ exception handling techniques to recover from program error\n"
+    ],
+    "credit_hours": 3,
+    "pre-requisites": null,
+    "grading_policy":{
+        "discussion": 20,
+        "assignment": 30,
+        "test": {
+            "application": 10,
+            "quiz": 10,
+            "midterm": 15,
+            "final": 15
+        }
+    },
+    "schedule": {
+        "W1":{
+            "topic": "Introductions",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 1", {"startpg": 2, "stopg": 33}],
+                    ["Online GDB: Setting Up", 1],
+                    ["Getting Started with Python", 1]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["MindTap: What is Computer Programming", 1],
+                    ["Online GDB: Using", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 1", {"startpg": 2, "stopg": 33}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Practice Puzzle", 1],
+                    ["MindTap: Code Exercise 1.1", 1],
+                    ["MindTap: Code Exercise 1.3", 1]
+                ]
+            },
+           "discussion": [
+               {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "1. Tell us about yourself so we can get to know you and so you can get to know others within the class. In your post, include what you believe to be your current knowledge level of this course topic and what you hope to learn before the course is over. Your introduction should contain at least TWO (2) complete sentences.\n",
+                        "2. Python is a widely used high-level dynamic programming language because it is user friendly and easy to learn. Select a company from the list below and write a TWO sentence summary outlining how the company uses Python. Include the name of the company you selected in your discussion response title, for example, 'Part B - Google'.\n"
+                    ],
+                    "due_date": "2022-01-17 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates:\n\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Were references included?\n",
+                        "- Did you learn any new information from the post?\n",
+                        "- Do you have any examples or experiences that relate to the post?\n",
+                        "-Do you have any questions related to the post?\n\n"
+                    ],
+                    "due_date": "2022-01-19 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "write": [
+                        ["Code: Input and Output", 1]
+                    ],
+                    "instructions": [
+                        "url:https://content.grantham.edu/academics/GU_CS192/W1A.htm"
+                    ],
+                    "due_date":"2022-01-19 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["application", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W2":{
+            "topic": "Software Development, Data Types, and Expressions",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 2", {"startpg": 34, "stopg": 63}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["MindTap: The Software Development Life Cycle", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 2", {"startpg": 34, "stopg": 63}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Practice Puzzle", 1],
+                    ["MindTap: Code Exercise 2.1", 1],
+                    ["MindTap: Code Exercise 2.3", 1]
+                ]
+            },
+           "discussion": [
+               {
+                   "submit": ["initial", 1],
+                   "instructions": [
+                       "# Research Topic: Software Development Life Cycle\n\n",
+                       "75-150 words\n\n",
+                       "Conduct a research summary on the topic posted in the discussion forum. Your article should contain an in-depth analysis of the topic provided. Your article or source cannot be more than an 5 years old.\n\n",
+                       "Your research summary should contain 4 - 6 sentences and should answer the following questions:\n\n",
+                       "- Define research topic.\n",
+                       "- What are the key points presented by the author?\n",
+                       "- Did you learn any new information from the article?\n",
+                       "- How could this content be beneficial to you as a programmer?\n"
+                   ],
+                   "due_date": "2022-01-17 00:59:59"
+               },
+               {
+                   "submit": ["response", 2],
+                   "instructions": [
+                        "Provide substantive feedback to your classmates:\n\n",
+                        "- Was the software development life cycle defined?\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Did you learn any new information from the post?\n"
+                   ],
+                   "due_date": "2022-01-19 00:59:59"
+               }
+            ],
+            "assignment": [
+                {
+                    "write": [
+                        ["Code: Taxes", 1]
+                    ],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W2A.htm"
+                    ],
+                    "due_date": "2022-01-19 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["quiz", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W3":{
+            "topic": "Selection Statements",
+            "not_graded": {
+                "read": [
+                    ["MindTap: 3.1 - 3.3", {"startpg": 64, "stopg": 85}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["MindTap: AND or NOT", 1],
+                    ["MindTap: Truth Tables", 1]
+                ],
+                "study": [
+                    ["MindTap: 3.1 - 3.3", {"startpg": 64, "stopg": 85}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Code Exercise 3.1", 1]
+                ]
+            },
+           "discussion": [
+               {
+                   "submit": ["initial", 1],
+                   "instructions": [
+                       "# If and Else\n\n",
+                       "75-150 words\n\n",
+                       "For your initial post, provide an example of an if-else scenario that may occur in your life. Convert your example to an actual Python if-else statement.\n\n"
+                   ],
+                   "due_date": "2022-01-31 00:59:59"
+               },
+               {
+                   "submit": ["response", 2],
+                   "instructions": [
+                        "Provide substantive feedback to your classmates:\n\n",
+                        "- Was their example converted to an if-else statement?\n",
+                        "- Was the if-else statement correct?\n",
+                        "- Did you learn any new information from the post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?"
+                   ],
+                   "due_date": "2022-02-02 00:59:59"
+               }
+            ],
+            "assignment": [
+                {
+                    "write": [
+                        ["Code: Bank Account 1", 1]
+                    ],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W3A.htm"
+                    ],
+                    "due_date": "2022-02-02 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["application", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W4":{
+            "topic": "Loops",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 3.4", {"startpg": 85, "stopg": 101}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["MindTap: Loops", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 1", {"startpg": 2, "stopg": 33}],
+                    ["MindTap: Unit 2", {"startpg": 34, "stopg": 63}],
+                    ["MindTap: Unit 3", {"startpg": 64, "stopg": 101}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Practice Puzzle", 1],
+                    ["MindTap: Code Exercise 3.3", 1],
+                    ["MindTap: Code Exercise 3.7", 1]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "# Research Topic: Programming Structures\n\n",
+                        "75-150 words.\n\n",
+                        "Conduct a research summary on the topic posted in the discussion forum. Your article should contain an in-depth analysis of the topic provided. Your article or source cannot be more than an 5 years old.\n\n",
+                        "Your research summary should contain 4 - 6 sentences and should answer the following questions:\n\n",
+                        "- Define research topic.\n",
+                        "- What are the key points presented by the author?\n",
+                        "- Did you learn any new information from the article?\n",
+                        "- How could this content be beneficial to you as a programmer?\n"
+                    ],
+                    "due_date": "2022-02-07 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates:\n\n",
+                        "- Were programming structures defined?\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Did you learn any new information from the post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?\n"
+                    ],
+                    "due_date": "2022-02-09 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "submit": ["Code: Bank Account 2", 1],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W4A.htm"
+                    ],
+                    "due_date": "2022-02-09 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["midterm", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W5":{
+            "topic": "Lists, Dictionaries, and Functions",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 5", {"startpg": 134, "stopg": 166}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 5", {"startpg": 134, "stopg": 166}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Practice Puzzle", 1],
+                    ["MindTap: Code Exercise 5.1", 1]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "# Methods\n\n",
+                        "75-150 words\n\n",
+                        "Select a method from the options listed below and write a FOUR sentence summary outlining how the method is used with a Python list object.\n\n",
+                        "Include the name of the list method you selected in your discussion response title.\n\n",
+                        "`append`\t`insert`\t`reverse`\t`sort`\t`clear`\n\n",
+                        "`extend`\t`remove`\t`copy`\t`count`\t`delete`"
+                    ],
+                    "due_date": "2022-02-14 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates:\n\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Did you learn any new information from the post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?\n"
+                    ],
+                    "due_date": "2022-02-16 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "submit": ["Code: Transactions", 1],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W5A.htm"
+                    ],
+                    "due_date": "2022-02-16 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["application", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W6":{
+            "topic": "Design with Classes",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 6", {"startpg": 167, "stopg": 204}],
+                    ["MindTap: Unit 9", {"startpg": 293, "stopg": 351}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["MindTap: Top-Down Design", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 6", {"startpg": 167, "stopg": 204}],
+                    ["MindTap: Unit 9", {"startpg": 293, "stopg": 351}],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Practice Puzzle", 1]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "# Research Topic: Top-Down Design\n\n",
+                        "75-150 words.\n\n",
+                        "Conduct a research summary on the topic posted in the discussion forum. Your article should contain an in-depth analysis of the topic provided. Your article or source cannot be more than an 5 years old.\n\n",
+                        "Your research summary should contain 4 - 6 sentences and should answer the following questions:\n\n",
+                        "- Define research topic.\n",
+                        "- What are the key points presented by the author?\n",
+                        "- Did you learn any new information from the article?\n",
+                        "- How could this content be beneficial to you as a programmer?\n"
+                    ],
+                    "due_date": "2022-02-21 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates.\n\n",
+                        "- Was object-oriented programming defined?\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Did you learn any new information from the post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?\n"
+                    ],
+                    "due_date": "2022-02-23 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "write": ["Code: OOP Transactions", 1],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W6A.htm"
+                    ],
+                    "due_date": "2022-02-23 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["quiz", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W7":{
+            "topic": "Simple Graphics and Image Processing",
+            "not_graded": {
+                "read": [
+                    ["MindTap: Unit 7", {"startpg": 205, "stopg": 243}]
+                ],
+                "watch": [
+                    ["Lecture: Assignment Guide", 1],
+                    ["Python Turtle Compiler", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 7", {"startpg": 205, "stopg": 243}],
+                    ["MindTap: Practice Puzzle", 1],
+                    ["MindTap: Review PowerPoint", 1],
+                    ["MindTap: Code Exercise 7.7", 1],
+                    ["MindTap: Review Questions", 1]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "# Graphics and Images\n\n",
+                        "75-150 words.\n\n",
+                        "Discuss, in detail, the usefulness of graphics and images in program development. Explain the importance of the interface of a class of objects. Be sure to emphasize the importance of design, color scheme and clarity.\n"
+                    ],
+                    "due_date": "2022-02-28 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates.\n\n",
+                        "- Were the importance of design, color and clarity emphasized?\n",
+                        "- Did you learn anything from their post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?"
+                    ],
+                    "due_date": "2022-03-02 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "submit": ["Code: Python Turtle", 1],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W7A.htm"
+                    ],
+                    "due_date": "2022-03-02 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["application", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        },
+        "W8":{
+            "topic": "Error Handling",
+            "not_graded": {
+                "read": [
+                    ["Introduction to Error Handling",
+                    "url: https://content.grantham.edu/academics/GU_CS192/CS192-W8WrittenLecture.htm"],
+                    ["Dealing with the Imperfect",
+                    "url: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Dealing_with_the_imperfect"],
+                    ["The End",
+                    "url: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/The_End"],
+                    ["FAQ", "url: https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/FAQ"],
+                    ["Python Lists", "url: https://www.tutorialspoint.com/python/python_lists.htm"],
+                    ["Python Exceptions", "url: https://docs.python.org/3/library/exceptions.html"]
+                ],
+                "watch": [
+                    ["Lecture: Introduction to Error Handling", 1],
+                    ["Lecture: Introduction to Exception Handling", 1],
+                    ["Lecture: Assignment Guide", 1]
+                ],
+                "study": [
+                    ["MindTap: Unit 5", {"startpg": 134, "stopg": 166}],
+                    ["MindTap: Unit 6", {"startpg": 167, "stopg": 204}],
+                    ["MindTap: Unit 7", {"startpg": 205, "stopg": 243}],
+                    ["MindTap: Unit 9", {"startpg": 293, "stopg": 351}]
+                ]
+            },
+            "discussion": [
+                {
+                    "submit": ["initial", 1],
+                    "instructions": [
+                        "# Error Handling and Reflection\n\n",
+                        "75-150 words.\n\n",
+                        "## Research Topic: Error Handling\n\n",
+                        "Conduct a research summary on the topic posted in the discussion forum. Your article should contain an in-depth analysis of the topic provided. Your article or source cannot be more than an 5 years old.\n\n",
+                        "Your research summary should contain at least TWO (2) sentences and should answer the following questions:\n",
+                        "- What are the key points presented by the author?\n",
+                        "- Did you learn any new information from the article?\n",
+                        "- How could this content be beneficial to you as a programmer?\n\n",
+                        "## Review and Reflection Summary\n\n",
+                        "Your reflection and review should contain at least TWO (2) sentences and should answer the following questions:\n\n",
+                        "- What is the most practical and easily applied lesson you learned?\n",
+                        "- What was the hardest to grasp?\n",
+                        "- Why?\n"
+                    ],
+                    "due_date": "2022-03-06 00:59:59"
+                },
+                {
+                    "submit": ["response", 2],
+                    "instructions": [
+                        "Provide substantive feedback to your classmates.\n\n",
+                        "- Was the exception handling defined?\n",
+                        "- Were the research points presented correctly?\n",
+                        "- Did you learn anything from their post?\n",
+                        "- Do you have any examples or experiences that relate to their posts?"
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ],
+            "assignment": [
+                {
+                    "submit": ["Code: Error Handling", 1],
+                    "instructions": [
+                        "url: https://content.grantham.edu/academics/GU_CS192/W8A.htm"
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ],
+            "tests": [
+                {
+                    "take": [
+                        ["final", 1]
+                    ],
+                    "due_date": "2022-03-09 00:59:59"
+                }
+            ]
+        }
+    }
+}

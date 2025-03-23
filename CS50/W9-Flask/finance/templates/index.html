@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {User Account}
+{% endblock %}
+
+{% block main %}
+    <div class="index">
+      <div>
+        <span class="label">Cash:</span> {{ user.cash|usd }}
+      </div>
+      <div class="spacer">
+
+      </div>
+      <div>
+        <span class="label">Total Holdings:</span> {{ (user.cash + user.total_holdings)|usd }}
+      </div>
+    </div>
+    {# Table that displays stocked owned by user #}
+    <table class="table">
+      <caption>Owned Stocks</caption>
+      <thead>
+        <tr>
+          <th scope="col">Company Name</th>
+          <th scope="col">Symbol</th>
+          <th scope="col">Number of Shares</th>
+          <th scope="col">Share Price</th>
+          <th scope="col">Value of Holding</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for stock in user.stocks %}
+          <tr>
+            <th scope="row">{{ stock.name }}</th>
+            <td>{{ stock['share'] }}</td>
+            <td>{{ stock['count'] }}</th>
+            <td>{{ stock['price']|usd }}</th>
+            <td>{{ stock['holding']|usd }}</th>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+{% endblock %}

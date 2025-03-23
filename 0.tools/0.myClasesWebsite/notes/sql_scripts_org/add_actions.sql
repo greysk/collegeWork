@@ -1,0 +1,7 @@
+--actions
+INSERT OR IGNORE INTO actions VALUES('Read');
+INSERT OR IGNORE INTO actions VALUES('Write');
+INSERT OR IGNORE INTO actions VALUES('Study');
+INSERT OR IGNORE INTO actions VALUES('Submit');
+INSERT OR IGNORE INTO actions VALUES('Write');
+INSERT OR IGNORE INTO actions VALUES('Take');

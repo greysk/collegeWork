@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {Transaction History}
+{% endblock %}
+
+{% block main %}
+
+    {# Table that shows user's transaction history #}
+    <table class="table">
+      <caption>Transaction History</caption>
+      <thead>
+        <tr>
+          <th scope="col">Transaction Type</th>
+          <th scope="col">Symbol</th>
+          <th scope="col">Number of Shares</th>
+          <th scope="col">Share Price</th>
+          <th scope="col">Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for stock in transactions %}
+            {% if stock['share'] == "Cash Deposit" %}
+              {% set color = "table-info" %}
+              {% set label = "Cash Added" %}
+              {% set count = stock['share_count'] %}
+            {% elif stock['share_count'] > 0 %}
+              {% set color = "table-warning" %}
+              {% set label = "Buy" %}
+              {% set count = stock['share_count'] %}
+            {% else %}
+              {% set color = "table-success" %}
+              {% set label = "Sell" %}
+              {% set count = stock['share_count'] * -1 %}
+            {% endif %}
+          <tr class="{{ color }}">
+            <th scope="row">{{ label }}</th>
+            <td>{{ count }}</th>
+            <td>{{ stock['share_price']|usd }}</th>
+            <td>{{ stock['share'] }}</td>
+            <td>{{ stock['dt'] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+{% endblock %}

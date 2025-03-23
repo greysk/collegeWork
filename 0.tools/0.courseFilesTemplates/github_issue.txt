@@ -1,0 +1,25 @@
+# 2024 [mmm] Syllabus - [coursecode]: [title]
+
+[Syllabus Weblink]()
+
+## Book(s)
+
+[ ] Add book(s)
+
+## Schedule
+
+### Week 1: [topic]
+
+- [ ] Required Reading
+- [ ] Video Lecture
+- [ ] Graded
+  - [ ] Discussion: [topic]
+    - [ ] Initial **Due: ! (Sun) at 0:59**
+    - [ ] Response 1 **Due: % (Tue) by 0:59 EST**
+    - [ ] Response 2 **Due: % (Tue) by 0:59 EST**
+  - [ ] Assignment **Due: % (Tue) by 0:59 EST**
+
+
+https://content.grantham.edu/academics/LPF_MA141/Precalculus_syllabusComplete.htm
+
+https://content.grantham.edu/academics/GU_Co120/Syllabus_CO120.htm

@@ -1,0 +1,14 @@
+﻿@*
+    Graeson Thomas | IS370
+*@
+@model ThomasW8Lab.Models.LinkModel
+@{
+    ViewBag.Title = "Links";
+}
+<h2>Links</h2>
+
+<h3>@Model.Category</h3>
+
+<ul>
+    <li><a href="@Model.URL" referrerpolicy="@Model.ReferPolicy">@Model.LinkText</a></li>
+</ul>

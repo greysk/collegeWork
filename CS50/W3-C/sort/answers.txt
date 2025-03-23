@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Overall, it took the longest time but was close to Sort2 when the list was already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: Overall, it is by far the fastest one at sorting and is increasingly faster in compared to the other sorts as the amount of data being sorted increases.
+
+sort3 uses: Selection Sort
+
+How do you know?: Overall, it is the second fastest except when the list is already sorted in which case it took far longer. Even if a list is sorted, selection sort still has to loop through all the numbers checking for the lowest value for each position.

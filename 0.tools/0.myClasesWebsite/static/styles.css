@@ -1,0 +1,5 @@
+.inline-p {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}

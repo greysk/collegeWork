@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quotes
+{% endblock %}
+
+{% block main %}
+    {# Result of look up done with form in quote. #}
+    <fieldset>
+    <div class="mb-3">
+        <legend>Details for {{ stock_data["symbol"] }}</legend>
+        <label for="name">Name</label>
+        <input autocomplete="off" class="form-control mx-auto w-auto" id="name" name="name" type="text" disabled value="{{ stock_data['name'] }}">
+    </div>
+    <div class="mb-3">
+        <label for="price">Current price</label>
+        <input autocomplete="off" class="form-control mx-auto w-auto" id="price" name="price" type="text" disabled value="{{ stock_data['price']|usd }}">
+    </div>
+    </fieldset>
+    {# <table>
+        <thead>
+            <tr>
+                <th scope="column">Category</th>
+                <th scope="column">Value</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for category, value in stock_data.items() %}
+            <tr>
+                <td>{{ category }}</td>
+                <td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table> #}
+{% endblock %}

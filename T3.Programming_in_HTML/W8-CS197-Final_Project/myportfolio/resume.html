@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--
+    Author: Graeson Thomas
+    File Name: resume.html
+    Last Updated: 03/24/2022
+-->
+<html lang="en">
+<head>
+    <title>Resume | Graeson Thomas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="The resume of Graeson Thomas">
+    <meta name="author" content="Graeson Thomas">
+    <!-- Google Font StyleSheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=JetBrains+Mono:ital,wght@0,500;1,500&family=Monda:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Favicon references -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+    <!-- Skip to Content Link -->
+    <a class="skip" href="#content">Skip to Content</a>
+
+    <div id="resume" class="container">
+
+        <!-- In the header, enter dynamic page header information (ex. the page title) -->
+        <header class="limit-width">
+            <h1><span class="myname">Graeson Thomas</span></h1>
+
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a title="Home" href="index.html">Home</a>
+                    <a title="Portfolio" href="portfolio.html">Portfolio</a>
+                    <a title="Resume (current)" class="current" href="resume.html">Resume</a>
+                    <a title="Contact Me" href="contact.html">Contact Me</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+        </header>
+
+        <!-- Tablet, Desktop Nav -->
+        <nav class="limit-width tablet-desktop">
+            <div class="nav-flex"><ul>
+                <li><a title="Home" href="index.html">Home</a></li>
+                <li><a title="Portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a title="Resume  (current)" class="current" href="resume.html">Resume</a></li>
+                <li><a title="Contact Me" href="contact.html">Contact Me</a></li>
+            </ul></div>
+        </nav>
+        <!-- Use aside for in-page navigation links on long pages (home and portfolio) and for content related to that in main on resume and contact me pages. -->
+        <aside>
+
+        </aside>
+
+        <!-- In main, enter dynamic webpage content. -->
+        <main id="content">
+            <div class="limit-width">
+                <!-- Portrait Image -->
+                <div class="center">
+                <img id="resume-portrait" class="portrait round" alt="A portrait of me, Graeson Thomas, against a red background" src="images/graeson-thomas-portrait-200x200.jpg">
+                </div>
+
+                <!-- Article semantic element used for both mobile and desktop version -->
+                <article>
+                    <h2 class="tablet-desktop center">Resume</h2>
+
+                    <section id="languages">
+
+                        <!-- Mobile Viewport: languages -->
+                        <div class="mobile">
+                            <h3>Languages</h3>
+
+                                <details>
+                                    <summary>Python</summary>
+
+                                    <p><span class="label">First Used:</span> <time datetime="2021-03">March 2021</time></p>
+                                </details>
+                                <details>
+                                    <summary>Git</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2021-07">July 2021</time></p>
+                                </details>
+                                <details>
+                                    <summary>SQL</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2021-06">June 2021</time></p>
+                                </details>
+                                <details>
+                                    <summary>VBA</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2021-03">March 2021</time></p>
+                                </details>
+                                <details>
+                                    <summary>HTML & CSS</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2012-10">October 2012</time></p>
+                                </details>
+                                <details>
+                                    <summary>Flask & Jinja</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2021-12">December 2021</time></p>
+                                </details>
+                                <details>
+                                    <summary>JavaScript</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2014-05">May 2014</time></p>
+                                </details>
+                                <details>
+                                    <summary>Java</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2007-09">September 2007</time></p>
+                                </details>
+                                <details>
+                                    <summary>C</summary>
+                                    <p><span class="label">First Used:</span> <time datetime="2021-12">December 2021</time></p>
+                                </details>
+                        </div>
+
+                        <!-- Tablet and Desktop Viewport: languages in table format  -->
+                        <table class="tablet-desktop">
+                          <caption>Languages</caption>
+                          <thead>
+                              <tr><!-- Row 1 -->
+                                  <th>Skill</th>
+                                  <th>First Used</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr><!-- Row 1: Python -->
+                                  <th>Python</th>
+                                  <td><time datetime="2021-03">March 2021</time></td>
+                              </tr>
+                              <tr><!-- Row 2: Git -->
+                                  <th>Git</th>
+                                  <td><time datetime="2021-07">July 2021</time></td>
+                              </tr>
+                              <tr><!-- Row 3: SQL -->
+                                  <th><abbr title="SQLite">SQL</abbr></th>
+                                  <td><time datetime="2021-06">June 2021</time></td>
+                              </tr>
+                              <tr><!-- Row 4: VBA -->
+                                  <th><abbr title="Visual Basic for Applications">VBA</abbr></th>
+                                  <td><time datetime="2021-03">March 2021</time></td>
+                              </tr>
+                              <tr><!-- Row 5: HTML & CSS-->
+                                  <th>HTML & CSS </th>
+                                  <td><time datetime="2012-10">October 2012</time></td>
+                              </tr>
+                              <tr><!-- Row 6: Flask-->
+                                  <th>Flask & Jinja</th>
+                                  <td><time datetime="2021-12">December 2021</time></td>
+                              </tr>
+                              <tr><!-- Row 7: JavaScript -->
+                                  <th>JavaScript</th>
+                                  <td><time datetime="2014-05">May 2014</time></td>
+                              </tr>
+                              <tr><!-- Row 8: Java-->
+                                  <th>Java</th>
+                                  <td><time datetime="2007-09">September 2007</time></td>
+                              </tr>
+                              <tr><!-- Row 9: C-->
+                                  <th>C</th>
+                                  <td><time datetime="2021-12">December 2021</time></td>
+                              </tr>
+                          </tbody>
+                        </table>
+
+                    </section>
+
+                    <section id="education">
+
+                        <!-- Mobile Viewport: education -->
+                        <div class="mobile">
+                            <h3>Education</h3>
+
+                            <details>
+                                <summary><abbr title="Bachelor of Science">B.S.</abbr> in Computer Science (in process)</summary>
+
+                                <h4>Grantham University</h4>
+
+                                <p class="label">Start Date</p>
+                                <p><time datetime="2022-01-12">January 12th, 2022</time></p>
+
+                                <p class="label">Expected Graduation</p>
+                                <p><time datetime="2024">2024</time></p>
+                            </details>
+                        </div>
+
+                        <!-- Tablet and Desktop Viewport: education in table format -->
+                        <table class="tablet-desktop">
+                          <caption>Education</caption>
+                          <thead>
+                              <tr><!-- Row 1 -->
+                                  <th>Major</th>
+                                  <th>Institution</th>
+                                  <th>Start Date</th>
+                                  <th>End Date</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr><!-- Row 2 -->
+                                  <th>Computer Science</th>
+                                  <td>Grantham University</td>
+                                  <td><time datetime="2022-01-12">01/12/22</time></td>
+                                  <td>Ongoing</td>
+                              </tr>
+                          </tbody>
+                        </table>
+
+                    </section>
+
+                    <section id="employment">
+
+                        <!-- Mobile Viewport: employment history -->
+                        <div class="mobile">
+                            <h3>Employment History</h3>
+
+                            <details>
+                                <summary>Lead Customer Service Representative</summary>
+
+                                <h4>Social Security Administration</h4>
+
+                                <p class="label">Start Date</p>
+                                <p><time datetime="2020-01-19">2020-01-19</time></p>
+
+                                <p class="label">End Date</p>
+                                <p>Ongoing</p>
+                            </details>
+
+                            <details>
+                                <summary>Customer Service Representative</summary>
+
+                                <h4>Social Security Administration</h4>
+
+                                <p class="label">Start Date</p>
+                                <p><time datetime="2014-08-10">2014-08-10</time></p>
+
+                                <p class="label">End Date</p>
+                                <p><time datetime="2020-01-18">2020-01-18</time></p>
+                            </details>
+                        </div>
+
+                        <!-- Tablet and Desktop: employment details in table format -->
+                        <table class="tablet-desktop">
+                          <caption>Employment</caption>
+                          <thead>
+                              <tr><!-- Row 1 -->
+                                  <th>Job Title</th>
+                                  <th>Employer</th>
+                                  <th>Start Date</th>
+                                  <th>End Date</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr><!-- Row 2 -->
+                                  <th>Lead <abbr title="Customer Service Representative">CSR</abbr></th>
+                                  <td><abbr title="Social Security Administration">SSA</abbr></td>
+                                  <td><time datetime="2020-01-19">01/19/20</time></td>
+                                  <td>Ongoing</td>
+                              </tr>
+                              <tr><!-- Row 3 -->
+                                  <th><abbr title="Customer Service Representative">CSR</abbr></th>
+                                  <td><abbr title="Social Security Administration">SSA</abbr></td>
+                                  <td><time datetime="2014-08-10">08/10/14</time></td>
+                                  <td><time datetime="2020-01-18">01/18/20</time></td>
+                              </tr>
+                          </tbody>
+                        </table>
+
+                    </section>
+                </article>
+            </div>
+
+        </main>
+
+        <!-- The footer contains site-wide (static) content of the site copyright, my contact information, and site theme button. -->
+        <footer class="limit-width">
+            <!-- Contact Me links on SVG icons from https://icons.getbootstrap.com/icons -->
+            <div id="footer-contact">
+
+                <p><span class="myname">Graeson Thomas</span></p>
+
+                                <ul id="contact-icons">
+                    <li class="decor" role="presentation">&#8618;</li>
+
+                    <!-- Email LinK and SVG -->
+                    <li><a class="external-link" title="Email: gthomas16@grantham.edu" href="mailto:gthomas16@grantham.edu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" aria-label="email icon"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg></a></li>
+
+                    <!-- Github Link and SVG -->
+                    <li><a class="external-link" title="GitHub" href="https://github.com/greysk">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" aria-label="Github OctoCat icon"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a></li>
+
+                    <!-- LinkedIn Link and SVG -->
+                    <li><a class="external-link" title="LinkedIn" href="https://www.linkedin.com/in/graeson-thomas-31182411b">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" aria-label="LinkedIn bug icon"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg></a></li>
+
+                    <li class="decor" role="presentation">&#8617;</li>
+                </ul>
+            </div>
+            <!-- Copyright information -->
+            <p class="copyright">&copy; Copyright 2022. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.row {
+    width: 100%;
+    max-width: 30in;
+}
+main {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 1.5rem;
+    color: aliceblue;
+    font-size: large;
+}
+.dieR {
+    text-align: right;
+}
+#headimg {
+    width: 100%;
+}
+h1 {
+    /* Adjust for index having image in header. Otherwise odd amount of space between image and text because of padding-top on main for other site pages/navigation being fixed. */
+    margin-top: -3.5rem;
+}

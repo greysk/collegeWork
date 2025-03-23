@@ -1,0 +1,708 @@
+/*
+Author: Graeson Thomas
+Date: 03/24/2022
+File Name: styles.css
+*/
+
+/* CSS Variables */
+:root {
+    --bg-color-footheadnav: #2f2e5e;
+    --bg-color-button: #3F5589;
+    --linkcolor-dark-bg: #eee;
+    --linkcolor-light-bg: #3431e0;
+    --linkcolor-current-pg: gold;
+    --namecolor: #C1D4FF;
+    --font-main: 'IBM Plex Sans', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+    --font-nav: 'Monda', sans-serif;
+}
+
+/* CSS Reset */
+html, body, header, nav, main, footer, div, span, img, ul, li, a, h1, h2, h3, h4, p, table, tr, th, td, tbody, thead, figure, figcaption, form, input, textarea, label, legend, details, summary, code, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set box-sizing of border-box on all except svg, because setting box sizing on svg results in them not being displayed.
+For not() function: https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
+*:not(svg) {
+    box-sizing: border-box;
+}
+
+/* Style rules for skip navigation link */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+.skip:focus {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+/* Style rules for classes to center elements */
+.center {
+    margin: 0 auto 4%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Style rules for the round class. */
+.round {
+    border-radius: 8px;  /* Set border-radius for rounded corners */
+}
+
+/* Style rules for mobile viewport */
+html, body {
+    height: 100%;  /* Set page height to 100% for flex layout */
+}
+
+/* Style rules for header, footer, and nav */
+header, nav, footer {
+    background-color: var(--bg-color-footheadnav);
+}
+
+/* Mobile Viewport: Style rules for the header element */
+header {
+    /* Sticky header to the top of the page */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 2%;
+}
+
+/* Header: Style rules for h1. */
+header h1 {
+    /* Align header to the right of the page */
+    text-align: center;
+    /* Adjust font size to be larger*/
+    font-size: 1.3rem;
+    /* Adjust font weight to be less bold */
+    font-weight: 400;
+}
+
+/* Show mobile class; hide desktop, aside, menu-links and unnecessary decoration */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop, .desktop, .decor, aside, #menu-links {
+    display: none;
+}
+
+/* Style rules for links */
+a {
+    /* Remove link underline from all links on site */
+    text-decoration: none;
+    /* Set link color to match link color for header and footer. */
+    color: var(--linkcolor-dark-bg);
+}
+
+/* Style rules for nav and footer */
+nav, footer {
+    text-align: center;
+}
+
+/* Style rules for nav and footer unordered list */
+nav ul, footer ul {
+    list-style-type: none;
+}
+
+/* Site-wide: Style rules to set flex display on the body of the website */
+.container {
+    /* Set flex display */
+    display: flex;
+    /* Set flex-flow to column so main displays between header/nav and footer */
+    flex-flow: column;
+    /* Set container to fill entire window height */
+    height: 100%;
+}
+
+/* Flex display: Set amount of space to be used by the footer */
+.container > footer {
+    flex: 0 1 23px;
+}
+
+/* Flex display: Set main to fill remaining space on page  */
+.container > main {
+    /* Set main content to fill remaining space */
+    flex: auto;
+}
+
+/* Style rule for main */
+main {
+    /* Set background color of main to match the same color used for header, footer, and nav links */
+    background-color: var(--linkcolor-dark-bg);
+    /* Set font for main element text */
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+}
+
+/* Main: Style rules for the paragraph element */
+main p {
+    padding: 1rem; /* Add padding around paragraph elements */
+}
+
+/* Main: Style rules for the signature class */
+main .signature {
+    text-indent: 3rem; /* Indent signature text */
+}
+
+/* myname class: Style rules for the myname class in the main element. */
+main .myname {
+    /* Remove oblique and color */
+    font-style: normal;
+    color: unset;
+}
+
+/* Mobile Viewport: Style rules for my name inline class. */
+.myname {
+    /* Set a different font for my name */
+    font-family: var(--font-main);
+    /* Sets the font to oblique and set a unique color */
+    font-style: oblique;
+    color: var(--namecolor);
+}
+
+/* Site-wide: Style rules for code elements */
+code {
+    font-family: var(--font-code);
+    color: #2f2e5e;
+}
+
+/* Style rules for images */
+img, video {
+    /* No images should adjust greater than their max width */
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+video {
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px var(--bg-color-footheadnav);
+    width: 600px;
+}
+
+/* Site-wide: Style rules for portrait images */
+.portrait {
+    /* Add a border to the image */
+    border-style: ridge;
+    border-color: var(--namecolor);
+    width: 30vw;
+    float: right;
+    /* Move image in from the edge of the main element */
+    margin: 1% 1%;
+}
+
+/* Style rules for fake buttons */
+.button {
+    /* Add space around text for bigger buttons */
+    padding: 2%;
+    /* Center on page*/
+    margin: 1em auto;
+    /* Make buttons not as wide as viewport */
+    width: 60vw;
+    /* Set background color for buttons */
+    background-color: var(--bg-color-button);
+    /* Create a border for buttons */
+    border: unset;
+    border-radius: 8px;
+    border-color: var(--namecolor);
+    border-style: ridge;
+}
+
+.label {
+    font-weight: bold;
+    padding: 2%;
+}
+
+.mobile-nav {
+    width: 100%;
+}
+
+/* Mobile Viewport: Hamburger Menu */
+.mobile-nav a {
+    color: var(--linkcolor-dark-bg);
+    font-family: var(--font-nav);
+    font-size: 1.5rem;
+    padding: 1% 3% 0;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mobile-nav a.current {
+    color: var(--linkcolor-current-pg);
+}
+
+/* Mobile Viewport: Style rules for the portfolio page */
+#portfolio section {
+    /* Bring article in from the edge of the page */
+    margin: 2%;
+}
+
+#portfolio article {
+    /* Bring article in from the edge of the page */
+    margin: 2%;
+}
+
+/* Portfolio page: Style rules for paragraph element */
+#portfolio article p {
+    /* Bring paragraph closer to edge of page to align with figure */
+    padding: 1% 0;
+}
+
+/* Portfolio page: Style rules for figcaption */
+#portfolio figcaption {
+    /* Make figcaption italic */
+    font-style: italic;
+    /* Make figcaption smaller than other text on page */
+    font-size: 0.9em;
+    /* Set figcaption text color to match header color */
+    color: var(--bg-color-footheadnav);
+    margin: 0 15px;
+}
+
+/* Mobile Viewport: Style rules for resume page */
+#resume article {
+    margin: 2%
+}
+
+#resume h3 {
+    padding: 2%;
+}
+
+#resume h4 {
+    font-size: 1.8rem;
+    padding-top: 1%;
+    text-align: center;
+}
+
+#resume main p {
+    padding: 2%;
+}
+
+/* Mobile Viewport: Style rules for the Contact page */
+#contact main {
+    /* Center text only on the contact page */
+    text-align: center;
+}
+
+
+/* Mobile Viewport: Style rules for the footer element */
+footer p {
+    /* Remove excess space above and under name and copyright */
+    margin: 0.2rem 0;
+}
+
+/* Footer: Style rules for the list elements in the footer */
+footer li {
+    /* Organize footer links horizontally */
+    display: inline-block;
+    /* Add space between (to the left and right) of all list elements in the footer */
+    padding: 0 0.5%;
+}
+
+/* Footer: Style rules for the svg elements in the footer */
+footer svg {
+    /* Resize the footer svg images. */
+    height: auto;
+    width: 5vw;
+    padding: 0 4vw;
+    min-width: 15px;
+}
+
+/* Footer: Style rules for the copyright class. */
+footer .copyright {
+    font-size: 0.5rem;
+    color: var(--namecolor);
+    padding-bottom: 0.5vh;
+}
+
+/* myname class: Style rules for the my name class in the footer */
+footer p .myname {
+    font-size: 0.9rem;
+}
+
+/* Style rules for Tablet Viewport in Portrait View */
+@media screen and (min-width: 768px) {
+
+    .mobile, .desktop, .mobile-nav  {
+        display: none;
+    }
+
+    /* Tablet Viewport: Display the tablet and desktop and hide mobile blocks */
+    .tablet-desktop {
+        display: block;
+    }
+
+    /* Tablet Viewport: Style rule for portrait images */
+    .portrait {
+        width: 20vw;
+    }
+
+    /* Tablet Viewport: Style rules for the body on all pages */
+    body {
+        /* Add some space to sides of the page */
+        margin: auto 1%;
+        /* Cover gaps */
+        background-color: var(--bg-color-footheadnav);
+    }
+
+    header {
+        position: relative;
+        padding: 0.5%;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+        text-align: right;
+        padding-right: 2%;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    /* Navigation: Style rules for list elements */
+    nav li a {
+        display: block;
+        /* Set distinct font for the navigation links */
+        color: var(--linkcolor-dark-bg);
+        font-family: var(--font-nav);
+        font-size: 1.5rem;
+    }
+
+    /* Navigation: Style rules for the link of the current page. */
+    nav li a.current {
+        color: var(--linkcolor-current-pg);
+    }
+
+
+    nav li a:hover {
+        transform: scale(1.5);
+    }
+
+     /* Tablet Viewport: Flex layout for navigation links. To align evenly. */
+    .nav-flex ul {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .nav-flex > ul > li:nth-child(1) {
+        flex: auto;
+    }
+
+    .nav-flex > ul > li:nth-child(2) {
+        flex: auto;
+    }
+
+    .nav-flex > ul > li:nth-child(3) {
+        flex: auto;
+    }
+
+    .nav-flex > ul > li:last-child {
+        flex: auto;
+    }
+
+    /* Tablet Viewport: Style rules for the main element */
+    main h2 {
+        /* Center the tag within the main element */
+        text-align: center;
+        /* font-size: 2rem; */
+    }
+
+    main p {
+        /* Move the   main page contents in from the left edge of main so there is space between the end of the background color and the text */
+        margin: 0 1%;
+    }
+
+    #portfolio .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px 5px;
+    }
+
+    #portfolio .grid-span-col {
+        grid-column: 1/span 2;
+    }
+
+    #resume table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    #resume caption {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1%;
+    }
+
+    #resume th, #resume td {
+        border: 1px solid var(--bg-color-button);
+        padding: 1%;
+    }
+
+    #resume thead th {
+        background-color: hsl(241, 34%, 30%);
+        color: hsl(222, 100%, 95%);
+        text-shadow: 2px 2px 2px black,
+                     1px 1px 1px var(--linkcolor-dark-bg);
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+    #resume tbody th {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    #resume tr:nth-child(even) {
+        background-color: hsla(222, 100%, 88%, 0.294);
+    }
+
+    #resume tr:nth-child(odd){
+        background-color: #fff;
+    }
+
+    #resume tbody th {
+        width: 25vw;
+    }
+
+    #resume td {
+        width: 30vw;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    #resume #languages table {
+        max-width: 700px;
+    }
+
+    #resume #languages td {
+        width: 35vw;
+    }
+
+    /* Tablet Viewport: Style rules for the contact page */
+    #contact main {
+        text-align: unset;
+
+    }
+
+    #contact h3 {
+        margin-top: 2%;
+    }
+
+    #contact .email-form {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px 0;
+        width: 100%;
+        max-width: max-content;
+        font-family: var(--font-main);
+    }
+
+    #contact .email-form legend {
+        text-align: left;
+        font-family: var(--font-nav);
+        font-weight: bold;
+    }
+
+    #contact .email-form label {
+        text-align: right;
+        margin-right: 1.5rem;
+        font-family: var(--font-main);
+        text-shadow: 1px 1px var(--bg-color-button);
+    }
+
+    #contact .email-form input, #contact textarea {
+        border: 1px solid var(--bg-color-button);
+        box-shadow: 1px 1px 2px var(--bg-color-button);
+        font-family: inherit;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #contact textarea {
+        height: 20vh;
+    }
+
+    #contact #submit-btn {
+        grid-column: 2;
+        background-color: var(--bg-color-button);
+        color: var(--linkcolor-dark-bg);
+        padding: 2%;
+        font-size: 1.2rem;
+    }
+
+    #contact-links {
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 2rem;
+        font-weight: 600
+    }
+
+    #contact-links a {
+        color: var(--linkcolor-light-bg);
+        text-shadow: 1px 1px 1px white,
+                     2px 2px 2px var(--linkcolor-light-bg);
+    }
+    /* Style rules for the footer element. */
+    footer {
+        /* Align the footer text to the center of the footer element */
+        text-align: center;
+    }
+
+    footer svg {
+        /* Override the mobile viewport rules. */
+        width: 1.5rem;
+    }
+
+    footer svg:hover {
+        transform: scale(1.5);
+    }
+
+}
+
+/* Style rules for Tablet Viewport in Landscape orientations */
+@media screen and (min-height: 768px) and (orientation: landscape) {
+    /* Tablet Landscape Viewport: Make portrait image smaller */
+    .portrait {
+        width: 15vw;
+    }
+}
+
+/* Style rules for Desktop viewports. Adds to or overrides mobile viewport rules. */
+@media screen and (min-width: 1024px), print {
+
+    /* Desktop Viewport: Show desktop sections */
+    .desktop {
+        display: block;
+    }
+
+    .portrait {
+        width: 15vw;
+    }
+
+    /* Desktop Viewport: Style rules for the portfolio page */
+    #portfolio .grid {
+        grid-template-columns: auto auto auto;
+        gap: 3px 5px;
+    }
+
+    #portfolio .grid-span-col {
+        grid-column: 1/span 3;
+    }
+
+    /* Desktop Viewport: Style rules for the contact me page */
+    #contact .email-form {
+        width: 80%;
+    }
+
+    #contact textarea {
+        width: 50vw;
+        height: 20vh;
+    }
+
+    #contact h3 {
+        margin-left: 10%
+    }
+}
+
+/* Style rules for Desktop Viewport in Landscape orientations */
+@media screen and (min-height: 1024px) and (orientation: landscape) {
+    /* Desktop Landscape Viewport: Make portrait image smaller */
+    .portrait {
+        width: 15vw;
+    }
+}
+
+/* Style rules for large Desktop Viewports */
+@media screen and (min-width: 1441px) {
+
+    /* Increase navigation link font size on large Desktop Viewports */
+    nav a {
+        font-size: 1.8rem;
+    }
+
+    /* Limit width of content on all pages on large Desktop viewports */
+    .limit-width {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #contact-links {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Limit maximum size of portrait image on large Desktop Viewport */
+    .portrait {
+        width: 15vw;
+        max-width: 350px;
+    }
+
+    #home .portrait {
+        width: 15vw;
+        max-width: 250px;
+        margin-right: 10%;
+    }
+
+    #home main .limit-width p {
+        margin-left: 20%;
+    }
+
+    #portfolio section {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* Large Desktop Viewport: Style rules for resume page */
+    #resume article {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #contact textarea {
+        width: 45vw;
+        height: 25vh;
+    }
+
+    #contact h3 {
+        margin-left: 20%
+    }
+
+    #contact #submit-btn {
+        padding: 1%;
+    }
+
+    /* Footer: Style rules for the copyright class. */
+    footer .copyright {
+        font-size: 0.70rem;
+    }
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}

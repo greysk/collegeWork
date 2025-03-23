@@ -1,0 +1,13 @@
+Prefix,Num,Course Title,Credit Hours,Grade,Instructor
+AR,2**,AR Elective,3,CR,
+CS,1**,CS Elective,3,CR,
+EL,1**,Elective,3,CR,
+EN,101,English Composition I,3,CR,
+EN,102,English Composition II,3,CR,
+GS,1**,GS Elective,3,CR
+HU,1**,HU Elective,3,CR,
+HU,1**,HU Elective,3,CR,
+SS,1**,SS Elective,3,CR,
+SS,1**,SS Elective,3,CR,
+CO,120,Interpersonal Communication,0,IP,"Sears, Crystal"
+CS,192,Programming Essentials,0,IP,"Tricic, Sabahudin"

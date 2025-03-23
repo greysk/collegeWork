@@ -1,0 +1,31 @@
+﻿@*
+    Graeson Thomas | IS370
+*@
+@{
+    ViewData["Index"] = "Index";
+    ViewBag.Title = "Home";
+}
+<h2>Generate A List</h2>
+
+    @{
+        int iii = 10;
+        while (iii > 0)
+        {
+            <li>
+                @(iii) is
+                @{
+                    if (iii % 2 == 0)
+                    {
+                        <text>even</text>
+                    }
+                    else
+                    {
+                        <text>odd</text>
+                    }
+                }
+            </li>
+
+            iii--;
+        }
+    }
+</ul>

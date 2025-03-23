@@ -1,0 +1,19 @@
+WEBVTT
+
+NOTE
+Description for the pfix video on myportfolio/portfolio.html
+Student Name: Graeson Thomas
+File Name: description.vtt
+Date: 2022-04-19
+
+1
+00:00.00  --> 00:05.20
+A plain text contains the selected text C:\Users\Documents\file.txt. The context menu is used to copy the text.
+
+2
+00:05.20 --> 00:08.70
+A Windows Run Dialog box shows in the bottom left of the window containing the text "pfix". The OK button is clicked and a process runs.
+
+3
+00:08.70 --> 00:13.03
+The text C:\Users\Documents\file.txt is selected and the context menu is used to click on "paste". The Windows notepad document now contains the text C:/Users/Documents/file.txt.

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  {{ course.catalog_code }} Details
+{% endblock %}
+
+{% block main %}
+<section>
+  <h1>{{ course.catalog_code }} {{ course.title }}</h1>
+
+  <div class="inline-p">
+    <p>{{ course.credits }} </p>
+    <p>PREREQUISITES: {{ course.prereq }} </p>
+  </div>
+
+  <h2>Description</h2>
+
+  <p id="description">{{ course.description }}</p>
+
+</section>
+{% endblock %}
